@@ -1,0 +1,21 @@
+{
+  "name": "cat-bot",
+  "version": "1.0.0",
+  "description": "posts cat images",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node . | pino-pretty -i pid,hostname -t \"SYS:mmm dS, yyyy hh:MM:ss TT\""
+  },
+  "author": "faceboy#1392",
+  "license": "ISC",
+  "dependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/ms": "^0.7.31",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "pino": "^8.8.0"
+  }
+}
